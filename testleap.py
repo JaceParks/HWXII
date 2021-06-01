@@ -6,6 +6,7 @@ import sys
 def pytest():
     #pytest test
     assert q2.again(4) == True
+    assert q2.again(100) == False
     
 print("----------PYTEST----------")
 pytest()
